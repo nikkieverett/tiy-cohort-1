@@ -1,0 +1,207 @@
+/*
+FONT-FAMILY STACK:
+
+Helvetica, Arial, sans-serif
+
+COLORS:
+
+red:    #BA3610
+orange: #E57727
+blue:   #278A96
+black:  #132226
+brown:  #262425
+white:  #F5FFEB
+*/
+
+/*************************/
+/**** GENERIC STYLES *****/
+/*************************/
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url( "./img/bg.jpg" );
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 20px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: #F5FFEB;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/*************************/
+/**** HEADER STYLES ******/
+/*************************/
+#site_header{
+    background-color: #262425;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    flex-basis: 20%;
+}
+#main_nav{
+    text-align: right;
+    flex-basis: 70%;
+}
+#main_nav a{
+    background-color: #E57727;
+    display: inline-block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+#main_nav a:hover{
+    background-color: #BA3610;
+}
+
+/*********************************/
+/**** CALL TO ACTION STYLES ******/
+/*********************************/
+#call_to_action{
+    background-color: #BA3610;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#call_to_action div{
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+#call_to_action div:first-child{
+    flex-grow: 20;
+}
+#call_to_action h1, #call_to_action p{
+    color: white;
+}
+#call_to_action a{   
+    background-color: #E57727;
+    display: inline-block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+#call_to_action a:hover{
+    background-color: #278A96;
+} 
+
+/***************************/
+/**** FEATURED STYLES ******/
+/***************************/
+#featured_products{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#featured_products ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#featured_products li{
+    flex-basis: 32%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+#featured_products li img{
+    border-radius: 4px;
+}
+#featured_products h2{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+#featured_products p{
+    margin-top: 0;
+}
+#featured_products a{
+    color: #E57727;
+}
+#featured_products a:hover{
+    color: #278A96;
+}
+
+/*************************/
+/**** FOOTER STYLES ******/
+/*************************/
+#site_footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+#site_footer nav{
+    text-align: center;
+    padding: 20px 0;
+}
+#site_footer nav a{
+    display: inline-block;
+    color: white;
+    padding: 0 15px;
+}
+#site_footer nav a:hover{
+    color: #132226;
+}
+
+/*******************************/
+/**** PRODUCT PAGE STYLES ******/
+/*******************************/
+#products{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#products header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 80px;
+    border-bottom: 2px solid #262425;
+}
+#products header p{
+    text-transform: uppercase;
+}
+#products ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#products li{
+    flex-basis: 306px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+#products li img{
+    border-radius: 4px;
+}
+#products li h2{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+#products p{
+    margin-top: 0;
+}
