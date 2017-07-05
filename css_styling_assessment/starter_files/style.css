@@ -1,0 +1,85 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  margin: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+  line-height: 1.6;
+}
+#site_header {
+  background-color: rgba(255, 133, 35, 1.0);
+  padding: 30px;
+}
+#site_header #logo img{
+  margin-bottom: 10px;
+}
+.main_navigation a{
+  color: white;
+  text-decoration: none;
+  border: 1px white solid;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+#page_content {
+  margin: 20px;
+}
+h2, h3 {
+  color: #1fabe5;
+}
+#page_content a {
+  color: #1fabe5;
+}
+#page_content li{
+  font-weight: bold;
+}
+section {
+  border-bottom: 5px #dddddd solid;
+  padding-bottom: 40px;
+}
+table{
+  border-collapse: collapse;
+}
+thead {
+  background-color: #1fabe5;
+  color: white;
+}
+td {
+  border: #046c97 1px solid;
+  padding: 10px;
+}
+table img {
+  width: 100%;
+}
+.img-cell {
+  width: 60px;
+}
+form {
+  background-color: #dddddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+form .name {
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+
+}
+
+form .name input {
+  height: 40px;
+  width: 200px;
+}

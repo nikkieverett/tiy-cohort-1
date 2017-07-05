@@ -1,0 +1,134 @@
+
+body{
+  margin: 0;
+  color: rgba(43, 47, 39, 1.0);
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  display: flex;
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 2px 0px 5px rgba(160, 145, 132, 1.0);
+  z-index: 1;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  background-image: url('./optimized/bent-creek-logo.png');
+  background-size: contain;
+}
+.nav{
+  display: flex;
+  margin: 10px auto;
+  font-family: 'Roboto', sans-serif;
+}
+.nav li {
+  margin-right: 50px;
+  list-style: none;
+}
+.nav a {
+  color: rgba(43, 47, 39, 1.0);
+  text-transform: uppercase;
+}
+.nav a:hover{
+  color: rgba(160, 145, 132, 1.0);
+}
+.nav a:active{
+  color: rgba(160, 145, 132, 1.0);
+
+}
+
+
+main {
+  background-color: rgba(242, 241, 233, 1.0);
+  margin-top: 70px;
+  padding: 20px;
+}
+#page-title{
+  text-align: center;
+  padding: 70px;
+}
+#page-title h1 {
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+#page-title h2 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 2em;
+}
+
+#gallery{
+  padding-bottom: 20px;
+  z-index: -1;
+}
+#top-gallery, #bottom-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+#image1, #image2, #image3 {
+  height: 400px;
+  background-size: cover;
+  position: relative;
+}
+#image1{
+  background-image: url('./optimized/product-1.jpg');
+  width: 59%;
+}
+#image2{
+  background-image: url('./optimized/product-2.jpg');
+  width: 19%;
+}
+#image3{
+  background-image: url('./optimized/product-3.jpg');
+  width: 19%;
+}
+
+#image4, #image5, #image6, #image7 {
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+#image4{
+  background-image: url('./optimized/product-4.jpg');
+  width: 19%;
+}
+#image5{
+  background-image: url('./optimized/product-5.jpg');
+  width: 19%;
+}
+#image6{
+  background-image: url('./optimized/product-6.jpg');
+  width: 39%;
+}
+#image7{
+  background-image: url('./optimized/product-7.jpg');
+  width: 19%;
+}
+
+#gallery p {
+  background-color: rgba(43, 47, 39, 1.0);
+  color: rgba(242, 241, 233, 1.0);
+  display: inline-block;
+  padding: 15px;
+  position: absolute;
+  bottom: 5px;
+}
+
+
+
+footer {
+  background-color: rgba(43, 47, 39, 1.0);
+  color: rgba(242, 241, 233, 1.0);
+  padding: 40px;
+}
+footer p {
+  margin: 0;
+}

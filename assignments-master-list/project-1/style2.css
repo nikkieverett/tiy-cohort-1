@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  color: rgba(43, 47, 39, 1.0);
+  font-family: 'Merriweather', serif;
+}
+header {
+  display: flex;
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 2px 0px 5px rgba(160, 145, 132, 1.0);
+  z-index: 1;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  background-image: url('./optimized/bent-creek-logo.png');
+  background-size: contain;
+}
+.nav{
+  display: flex;
+  margin: 10px auto;
+  font-family: 'Roboto', sans-serif;
+}
+.nav li {
+  margin-right: 50px;
+  list-style: none;
+}
+.nav a {
+  color: rgba(43, 47, 39, 1.0);
+  text-transform: uppercase;
+}
+.nav a:hover{
+  color: rgba(160, 145, 132, 1.0);
+}
+.nav a:active{
+  color: rgba(160, 145, 132, 1.0);
+}
+
+
+main {
+  background-color: rgba(242, 241, 233, 1.0);
+  margin-top: 70px;
+  padding: 20px;
+}
+#page-title{
+  padding: 70px;
+  line-height: 1.8;
+  width: 960px;
+  margin: 0 auto;
+}
+#page-title h1 {
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  text-align: center;
+
+}
+#page-title h2 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 2em;
+}

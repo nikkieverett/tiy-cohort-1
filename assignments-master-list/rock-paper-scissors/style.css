@@ -1,0 +1,56 @@
+
+body{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 20px;
+  line-height: 200px;
+  font-size: 3em;
+  color: white;
+}
+#one {
+  background-color: red;
+}
+#two {
+  background-color: blue;
+}
+.winner {
+  width: 300px;
+  margin: 0 auto;
+}
+.buttons {
+  margin: 0 auto;
+}
+#button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+
+}
+#winner{
+  color: black;
+  font-size: 3em;
+  line-height: normal;
+}
+.name, .computer {
+  position: absolute;
+  top: 0;
+}
+.name {
+  left: 480px;
+}
+.computer {
+  right: 460px;
+}
