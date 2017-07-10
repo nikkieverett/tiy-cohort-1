@@ -1,0 +1,18 @@
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 2;
+}
+.image {
+  width: 150px;
+  height: 150px;
+
+}
+.main img {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+blockquote {
+  
+}
