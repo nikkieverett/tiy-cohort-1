@@ -17,17 +17,9 @@ function randomNumber(){
 function playGame(me){
   player1.textContent = me;
   randomNumber();
-  if(me === 'rock' && computer === 'scissors'){
+  if((me === 'rock' && computer === 'scissors') || (me === 'paper' && computer === 'rock') || (me === 'scissors' && computer === 'paper')){
     winner.textContent = "You're a winner!";
-  } else if(me === 'scissors' && computer === 'rock') {
-    winner.textContent = "Womp Womp Wommmmp!";
-  } else if(me === 'paper' && computer === 'rock') {
-    winner.textContent = "You're a winner!";
-  } else if(me === 'rock' && computer === 'paper') {
-    winner.textContent = "Womp Womp Wommmmp!";
-  } else if(me === 'scissors' && computer === 'paper') {
-    winner.textContent = "You're a winner!";
-  } else if (me === 'paper' && computer === 'scissors' ){
+  } else if((me === 'scissors' && computer === 'rock') || (me === 'rock' && computer === 'paper') || (me === 'paper' && computer === 'scissors' )){
     winner.textContent = "Womp Womp Wommmmp!";
   } else {
     winner.textContent = "It's a tie!";
