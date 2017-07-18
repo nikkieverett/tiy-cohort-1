@@ -1,0 +1,23 @@
+.row{
+  display: flex;
+}
+
+.button{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(97, 179, 79, 1.0);
+  color: white;
+  outline: white .5px solid;
+  line-height: 100px;
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.light{
+  background-color: rgba(130, 194, 118, 1.0);
+  color: rgba(66, 98, 59, 1.0);
+}
+#display{
+  width: 300px;
+}
