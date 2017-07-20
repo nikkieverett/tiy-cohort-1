@@ -1,8 +1,9 @@
-console.log(customers.results);
+console.log(customers);
 let body = document.querySelector('body');
 
 let container = document.createElement('main');
 let list = document.createElement('ul');
+
 body.appendChild(container);
 container.appendChild(list);
 
@@ -27,7 +28,7 @@ for(var i = 0; i < customers.results.length; i ++){
   phone.textContent = currentPerson.phone;
   social.textContent = currentPerson.id.value;
 
-
+  //
   list.appendChild(listItems);
 
   listItems.appendChild(image);

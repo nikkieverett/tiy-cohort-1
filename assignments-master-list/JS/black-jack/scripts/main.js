@@ -9,24 +9,24 @@
    write your logic.
 */
 
-
 function handValue (hand) {
+  console.log(hand);
   let total = 0;
-  for(let i = 0; i < hand.length; i ++) {
-    if (hand[i] === 'K' || hand[i] === 'Q' || hand[i] === 'J') {
+  for(var i = 0; i < hand.length; i++){
+    if(hand[i] === 'J' || hand[i] === 'Q' || hand[i] === 'K'){
       total += 10;
-    } else if (hand[i] !== 'A') {
-      total += parseInt(hand[i]);
+    } else if(hand[i] !== "A") {
+      total += Number(hand[i]);
     }
   }
-  for(let j = 0; j < hand.length; j ++){
-    if (hand[j] === 'A' && total > 10) {
+  for(var j = 0; j < hand.length; j++){
+    if(hand[j] === 'A' && total > 10 ){
       total += 1;
-    } else if (hand[j] === 'A' && total <= 10){
+    } else if(hand[j] === 'A' && total <= 10){
       total += 11;
     }
   }
-  console.log(total);
+
   return total;
 }
 
